@@ -27,7 +27,7 @@ const Cards = () => {
       <div className="row">
         {products.map((product, index) => (
           <div key={index} className="col-md-3">
-            <div className="card shadow-sm">
+            <div className="card h-100 shadow-sm">
               <img src={product.imageUrl} className="card-img-top" alt={product.title} />
               <div className="card-body">
                 <h5 className="card-title">{product.title}</h5>
